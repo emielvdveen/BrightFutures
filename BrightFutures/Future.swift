@@ -21,7 +21,6 @@
 // SOFTWARE.
 
 import Foundation
-import Result
 
 /// Executes the given task on `Queue.global` and wraps the result of the task in a Future
 public func future<T>(@autoclosure(escaping) task: () -> T) -> Future<T, NoError> {

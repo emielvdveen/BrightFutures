@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Result
 
 public protocol FutureType: AsyncType {
     typealias Value: ResultType

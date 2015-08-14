@@ -21,7 +21,6 @@
 // SOFTWARE.
 
 import Foundation
-import Result
 
 //// The free functions in this file operate on sequences of Futures
 

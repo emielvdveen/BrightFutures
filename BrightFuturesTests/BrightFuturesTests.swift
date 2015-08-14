@@ -21,9 +21,7 @@
 // SOFTWARE.
 
 import XCTest
-import Result
 import BrightFutures
-import Result
 
 class BrightFuturesTests: XCTestCase {
     
