@@ -10,6 +10,9 @@
 		172D3FA61B7EA92B004EC644 /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = 172D3FA31B7EA92B004EC644 /* Result.h */; };
 		172D3FA71B7EA92B004EC644 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172D3FA41B7EA92B004EC644 /* Result.swift */; };
 		172D3FA81B7EA92B004EC644 /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172D3FA51B7EA92B004EC644 /* ResultType.swift */; };
+		172D3FAD1B7EADB4004EC644 /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = 172D3FA31B7EA92B004EC644 /* Result.h */; };
+		172D3FAE1B7EADB4004EC644 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172D3FA41B7EA92B004EC644 /* Result.swift */; };
+		172D3FAF1B7EADB4004EC644 /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172D3FA51B7EA92B004EC644 /* ResultType.swift */; };
 		E9039ADD1A45DF8D000DD6F1 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9039ADC1A45DF8D000DD6F1 /* ResultTests.swift */; };
 		E907D1DE1A6AE4A000AB8075 /* Semaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E907D1DD1A6AE4A000AB8075 /* Semaphore.swift */; };
 		E9319EA41A397D2C00A0604A /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9319EA31A397D2C00A0604A /* QueueTests.swift */; };
@@ -252,6 +255,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				172D3FAD1B7EADB4004EC644 /* Result.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,11 +415,13 @@
 				E9D45B1A1AF00668000F6CA7 /* ExecutionContext.swift in Sources */,
 				E9DD4EF21B4F16C00070C2AF /* Async.swift in Sources */,
 				E9B4EB031B64DF5200EE5540 /* FutureType.swift in Sources */,
+				172D3FAE1B7EADB4004EC644 /* Result.swift in Sources */,
 				E9D45B1F1AF00670000F6CA7 /* FutureUtils.swift in Sources */,
 				E9DD4EF31B4F16C30070C2AF /* AsyncType.swift in Sources */,
 				E9CA7B421B555DB200102F87 /* MutableAsyncType.swift in Sources */,
 				E9B094691B5FE086003AC209 /* MutableAsyncType+ResultType.swift in Sources */,
 				E9D45B1D1AF00668000F6CA7 /* Promise.swift in Sources */,
+				172D3FAF1B7EADB4004EC644 /* ResultType.swift in Sources */,
 				E992A9601B501AC800A9FC4F /* AsyncType+ResultType.swift in Sources */,
 				E9D45B201AF00670000F6CA7 /* Semaphore.swift in Sources */,
 				E9D45B191AF00668000F6CA7 /* InvalidationToken.swift in Sources */,
