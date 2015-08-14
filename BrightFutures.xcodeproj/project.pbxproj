@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17A038341B7E9B2E00DA52BD /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A038331B7E9B2E00DA52BD /* Result.framework */; };
+		172D3FA21B7EA784004EC644 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172D3FA11B7EA784004EC644 /* Result.framework */; };
 		E9039ADD1A45DF8D000DD6F1 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9039ADC1A45DF8D000DD6F1 /* ResultTests.swift */; };
 		E907D1DE1A6AE4A000AB8075 /* Semaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E907D1DD1A6AE4A000AB8075 /* Semaphore.swift */; };
-		E90E9D621B1B8AA500A8F9F3 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90E9D611B1B8AA500A8F9F3 /* Result.framework */; };
 		E9319EA41A397D2C00A0604A /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9319EA31A397D2C00A0604A /* QueueTests.swift */; };
 		E95507001B525D0B00359F73 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DD4EF01B4ED6850070C2AF /* Async.swift */; };
 		E979E5F41975B1AA007FE914 /* FutureUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E979E5F31975B1AA007FE914 /* FutureUtils.swift */; };
@@ -96,11 +95,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		17A038331B7E9B2E00DA52BD /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = "Carthage/Checkouts/Result/build/Debug-iphoneos/Result.framework"; sourceTree = "<group>"; };
+		172D3FA11B7EA784004EC644 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = "Carthage/Checkouts/Result/build/Debug-iphoneos/Result.framework"; sourceTree = "<group>"; };
 		E9039ADC1A45DF8D000DD6F1 /* ResultTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
 		E907D1DD1A6AE4A000AB8075 /* Semaphore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Semaphore.swift; sourceTree = "<group>"; };
-		E90E9D5F1B1B8A9B00A8F9F3 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = "Carthage/Checkouts/Result/build/Debug-iphoneos/Result.framework"; sourceTree = "<group>"; };
-		E90E9D611B1B8AA500A8F9F3 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Checkouts/Result/build/Debug/Result.framework; sourceTree = "<group>"; };
 		E9319EA31A397D2C00A0604A /* QueueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
 		E979E5F31975B1AA007FE914 /* FutureUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FutureUtils.swift; sourceTree = "<group>"; };
 		E992A95E1B501AC800A9FC4F /* AsyncType+ResultType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AsyncType+ResultType.swift"; sourceTree = "<group>"; };
@@ -132,7 +129,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E90E9D621B1B8AA500A8F9F3 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17A038341B7E9B2E00DA52BD /* Result.framework in Frameworks */,
+				172D3FA21B7EA784004EC644 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,36 +159,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E90E9D5B1B1B8A4F00A8F9F3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				17A038331B7E9B2E00DA52BD /* Result.framework */,
-				E90E9D5D1B1B8A5B00A8F9F3 /* Mac */,
-				E90E9D5C1B1B8A5400A8F9F3 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E90E9D5C1B1B8A5400A8F9F3 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				E90E9D5F1B1B8A9B00A8F9F3 /* Result.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		E90E9D5D1B1B8A5B00A8F9F3 /* Mac */ = {
-			isa = PBXGroup;
-			children = (
-				E90E9D611B1B8AA500A8F9F3 /* Result.framework */,
-			);
-			name = Mac;
-			sourceTree = "<group>";
-		};
 		E9DF080B194470060083F7F2 = {
 			isa = PBXGroup;
 			children = (
-				E90E9D5B1B1B8A4F00A8F9F3 /* Frameworks */,
+				172D3FA11B7EA784004EC644 /* Result.framework */,
 				E9DF0817194470060083F7F2 /* BrightFutures */,
 				E9DF0824194470060083F7F2 /* BrightFuturesTests */,
 				E9DF0816194470060083F7F2 /* Products */,
