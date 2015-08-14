@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		172D3FA21B7EA784004EC644 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172D3FA11B7EA784004EC644 /* Result.framework */; };
+		172D3FA61B7EA92B004EC644 /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = 172D3FA31B7EA92B004EC644 /* Result.h */; };
+		172D3FA71B7EA92B004EC644 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172D3FA41B7EA92B004EC644 /* Result.swift */; };
+		172D3FA81B7EA92B004EC644 /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172D3FA51B7EA92B004EC644 /* ResultType.swift */; };
 		E9039ADD1A45DF8D000DD6F1 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9039ADC1A45DF8D000DD6F1 /* ResultTests.swift */; };
 		E907D1DE1A6AE4A000AB8075 /* Semaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E907D1DD1A6AE4A000AB8075 /* Semaphore.swift */; };
 		E9319EA41A397D2C00A0604A /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9319EA31A397D2C00A0604A /* QueueTests.swift */; };
@@ -95,7 +97,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		172D3FA11B7EA784004EC644 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = "Carthage/Checkouts/Result/build/Debug-iphoneos/Result.framework"; sourceTree = "<group>"; };
+		172D3FA31B7EA92B004EC644 /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Result.h; path = BrightFutures/Result.h; sourceTree = "<group>"; };
+		172D3FA41B7EA92B004EC644 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = BrightFutures/Result.swift; sourceTree = "<group>"; };
+		172D3FA51B7EA92B004EC644 /* ResultType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultType.swift; path = BrightFutures/ResultType.swift; sourceTree = "<group>"; };
 		E9039ADC1A45DF8D000DD6F1 /* ResultTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
 		E907D1DD1A6AE4A000AB8075 /* Semaphore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Semaphore.swift; sourceTree = "<group>"; };
 		E9319EA31A397D2C00A0604A /* QueueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
@@ -144,7 +148,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				172D3FA21B7EA784004EC644 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,10 +162,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		172D3FA91B7EA944004EC644 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				172D3FA31B7EA92B004EC644 /* Result.h */,
+				172D3FA41B7EA92B004EC644 /* Result.swift */,
+				172D3FA51B7EA92B004EC644 /* ResultType.swift */,
+			);
+			name = Result;
+			sourceTree = "<group>";
+		};
 		E9DF080B194470060083F7F2 = {
 			isa = PBXGroup;
 			children = (
-				172D3FA11B7EA784004EC644 /* Result.framework */,
+				172D3FA91B7EA944004EC644 /* Result */,
 				E9DF0817194470060083F7F2 /* BrightFutures */,
 				E9DF0824194470060083F7F2 /* BrightFuturesTests */,
 				E9DF0816194470060083F7F2 /* Products */,
@@ -246,6 +259,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				172D3FA61B7EA92B004EC644 /* Result.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,11 +445,13 @@
 				E9DF0836194470190083F7F2 /* Future.swift in Sources */,
 				E9DF0835194470190083F7F2 /* ExecutionContext.swift in Sources */,
 				E9B4EB021B64DF5200EE5540 /* FutureType.swift in Sources */,
+				172D3FA71B7EA92B004EC644 /* Result.swift in Sources */,
 				E9DD4EEF1B4ED51A0070C2AF /* AsyncType.swift in Sources */,
 				E9DF0837194470190083F7F2 /* Promise.swift in Sources */,
 				E9CA7B411B555DB200102F87 /* MutableAsyncType.swift in Sources */,
 				E9B094681B5FE086003AC209 /* MutableAsyncType+ResultType.swift in Sources */,
 				E9D923AC1A6CE29A00CADD9F /* InvalidationToken.swift in Sources */,
+				172D3FA81B7EA92B004EC644 /* ResultType.swift in Sources */,
 				E907D1DE1A6AE4A000AB8075 /* Semaphore.swift in Sources */,
 				E992A95F1B501AC800A9FC4F /* AsyncType+ResultType.swift in Sources */,
 				E9DF0838194470190083F7F2 /* Queue.swift in Sources */,
